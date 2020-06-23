@@ -1,5 +1,6 @@
 .box-1,
 .box-2 {
+  margin-left: 124px;
 }
 .box-1 form {
   display: flex;
