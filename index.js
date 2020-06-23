@@ -28,7 +28,9 @@ async function addMovie() {
     };
 
     let response = await fetch(url, options);
-    // let data = await response.json();
+    let data = await response.json();
+
+    console.log(data);
   } catch (error) {
     console.error(error);
   }
