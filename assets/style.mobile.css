@@ -1,0 +1,29 @@
+.box-1,
+.box-2 {
+}
+.box-1 form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.box-2 form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.box-1 input {
+  width: 207px;
+}
+.box-2 input {
+  width: 207px;
+}
+.box-3 textarea {
+  width: 207px;
+}
+.box-4 input {
+  width: 207px;
+}
+.list .card {
+  margin: 50px 10px;
+  width: 100%;
+}

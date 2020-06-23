@@ -22,3 +22,13 @@ form {
 .box-4 input {
   width: 420px;
 }
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.list .card {
+  margin: 50px 10px;
+  width: 20%;
+}
