@@ -4,6 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie List</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 500px)"
+      href="/assets/style.mobile.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gorditas&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h1>Movie List</h1>
@@ -20,10 +40,20 @@
           <input type="text" name="image" id="image" placeholder="Image Link" />
         </form>
       </div>
-      <form>
-        <input type="text" name="desc" id="desc" placeholder="Description" />
-        <input type="button" id="button" value="Add" />
-      </form>
+      <div class="box-3">
+        <form>
+          <textarea
+            name="desc"
+            id="desc"
+            cols="30"
+            rows="4"
+            placeholder="Description"
+          ></textarea>
+        </form>
+      </div>
+      <div class="box-4">
+        <input type="button" class="btn btn-primary" id="button" value="Add" />
+      </div>
     </div>
 
     <script src="index.js"></script>
