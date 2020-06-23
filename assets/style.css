@@ -1,14 +1,40 @@
+/* FONT STYLE */
+@font-face {
+  font-family: "Red Letter";
+  src: url("/assets/Tomatoes-O8L8.ttf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Marko+One&display=swap");
+
+/* CSS */
 body {
   text-align: center;
   position: relative;
-  font-family: "Kulim Park", sans-serif;
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  background: url(/assets/background.png);
+  background-position: center;
 }
 h1 {
-  font-family: "Gorditas", cursive;
-  margin: 25px auto 15px auto;
+  font-family: "Red Letter";
+  margin: 50px auto 0 auto;
+}
+h2 {
+  font-family: "Marko One", serif;
+  color: azure;
+  margin: 0 auto 20px auto;
 }
 form {
   margin: 3px auto;
+}
+input,
+textarea {
+  background-color: #ffc7d8;
+  border: 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+::placeholder {
+  color: #393943;
 }
 .box-1 input {
   width: 207px;
@@ -18,6 +44,7 @@ form {
 }
 .box-3 textarea {
   width: 420px;
+  margin-top: 5px;
 }
 .box-4 input {
   width: 420px;
